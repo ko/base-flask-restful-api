@@ -1,0 +1,10 @@
+# general app
+SECRET_KEY  = 'dev key'
+DEBUG       = True
+
+# database
+DATABASE_FILE = 'db.sqlite'
+SQLALCHEMY_DATABASE_URI = 'sqlite:///' + DATABASE_FILE
+SQLALCHEMY_ECHO = True
+
+
